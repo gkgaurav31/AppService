@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_US"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://azure.github.io/AppService/feed.xml" rel="self" type="application/atom+xml" /><link href="https://azure.github.io/AppService/" rel="alternate" type="text/html" hreflang="en_US" /><updated>2020-04-13T00:06:49+00:00</updated><id>https://azure.github.io/AppService/feed.xml</id><title type="html">App Service Blog</title><subtitle>Announcements, updates, and release notes from the Azure App Service product team.</subtitle><author><name>Azure App Service</name></author><entry><title type="html">A New Look for App Service Diagnostics</title><link href="https://azure.github.io/AppService/2020/03/23/A-New-Look-for-App-Service-Diagnostics.html" rel="alternate" type="text/html" title="A New Look for App Service Diagnostics" /><published>2020-03-23T00:00:00+00:00</published><updated>2020-03-23T00:00:00+00:00</updated><id>https://azure.github.io/AppService/2020/03/23/A-New-Look-for-App-Service-Diagnostics</id><content type="html" xml:base="https://azure.github.io/AppService/2020/03/23/A-New-Look-for-App-Service-Diagnostics.html">&lt;blockquote&gt;
+  &lt;p&gt;The new experience is currently available for select Windows web apps. We are gradually rolling it out to all subscriptions in the coming weeks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;App Service Diagnostics is an intelligent and interactive experience to help you troubleshoot your app with no configuration required. When you run into issues with your app, App Service Diagnostics points out what’s wrong to guide you to the right information to more easily troubleshoot and resolve issues.&lt;/p&gt;
+
+&lt;p&gt;To make it easier for you to discover your application’s issues and helpful insights, we are launching a new experience in App Service Diagnostics.&lt;/p&gt;
+
+&lt;h2 id=&quot;discover-issues-faster&quot;&gt;Discover Issues Faster&lt;/h2&gt;
+
+&lt;p&gt;The new experience allows you quickly discover issues that your application might be encountering by running health checks for each problem category upfront. Upon clicking on each problem category in the homepage, a series of checks are run, and the results are presented in the overview page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/landing-page.png&quot; alt=&quot;Landing Page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/overview-page.png&quot; alt=&quot;Overview Page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The cards at the top of the overview page show the status of your app by performing pre-selected checks on your application’s backend telemetry. You can click on these cards to further investigate the issue.&lt;/p&gt;
+
+&lt;p&gt;If you already know the problem you want to drill down to, choose a relevant item in the left navigation where you will find more comprehensive checks on different topics.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/web-app-down.png&quot; alt=&quot;Web App Down&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;interactive-interface-genie&quot;&gt;Interactive Interface: Genie&lt;/h2&gt;
+
+&lt;p&gt;When you are not sure where to begin, or you cannot find the information you are looking for, App Service Diagnostics’ interactive interface, Genie, can help guide you through diagnosing and solving problems of your app.&lt;/p&gt;
+
+&lt;p&gt;Click the &lt;strong&gt;Ask Genie&lt;/strong&gt; button at the top of the page to start a chat with our interactive interface, Genie. Type in the issue you are experiencing, and Genie will automatically fetch relevant diagnostics available in App Service Diagnostics and return the results along with relevant documentation found on the web. Genie will share its observation on the issue and list out checks that have succeeded. You can click on &lt;strong&gt;More Info&lt;/strong&gt; to see additional information for each check.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/genie.png&quot; alt=&quot;Genie&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;command-bar&quot;&gt;Command Bar&lt;/h2&gt;
+
+&lt;p&gt;The new experience introduces a command bar control at the top where you will find buttons and controls you often interact with. Below controls are now available in every page with diagnostics.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/commandbar.png&quot; alt=&quot;Command Bar&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Search&lt;/strong&gt;: Search is now available in every page for you to quickly find and navigate to different diagnostics of your choice.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ask Genie&lt;/strong&gt;: Ask Genie button is available in every page for you to get analysis and documentation results tailored to your issue.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Refresh&lt;/strong&gt;: Refresh button is available in every page for you to reload the diagnostics.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Feedback&lt;/strong&gt;: Feedback button is available in every page for you to share feedback with the App Service Diagnostics Product team.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Time Filter&lt;/strong&gt;: The new time filter now gives options to choose from predefined time range and custom time range using date picker and time picker to more easily filter the diagnostics to your desired time range. The time you select will be honored when you switch to another page. (Current limitations: The end time cannot be more than (current time - 15 minutes) due to limitations on data ingestion; The time range will reset to a 24-hour range once you go back to the homepage.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s Next&lt;/h2&gt;
+
+&lt;p&gt;For more information on App Service Diagnostics, please visit &lt;a href=&quot;https://docs.microsoft.com/azure/app-service/overview-diagnostics&quot;&gt;Azure App Service diagnostics overview&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Feel free to share your feedback or questions about &lt;strong&gt;App Service Diagnostics&lt;/strong&gt; by emailing &lt;a href=&quot;mailto:diagnostics@microsoft.com&quot;&gt;diagnostics@microsoft.com&lt;/a&gt; or posting on &lt;a href=&quot;https://feedback.azure.com/forums/169385-web-apps​​​​​​​​​​​​​​&quot;&gt;UserVoice&lt;/a&gt; with “[Diag]” in the title.&lt;/p&gt;</content><author><name>Azure App Service</name></author><category term="diagnostics" /><category term="troubleshooting" /><category term="self-help" /><summary type="html">We are launching a new experience in App Service Diagnostics to help you more easily and quickly diagnose and solve problems of your application.</summary></entry><entry><title type="html">PremiumV2 tier for older App Service deployments</title><link href="https://azure.github.io/AppService/2020/03/23/PremiumV2-support-for-older-deployments.html" rel="alternate" type="text/html" title="PremiumV2 tier for older App Service deployments" /><published>2020-03-23T00:00:00+00:00</published><updated>2020-03-23T00:00:00+00:00</updated><id>https://azure.github.io/AppService/2020/03/23/PremiumV2%20support%20for%20older%20deployments</id><content type="html" xml:base="https://azure.github.io/AppService/2020/03/23/PremiumV2-support-for-older-deployments.html">&lt;p&gt;The PremiumV2 hardware tier is now available for older deployments of App Service where it was not previously available. A few years ago Azure App Service began to offer the PremiumV2 App Service plan. The benefits of this new tier were tied to the new hardware that was used for it. The same hardware is used for Free to Standard App Service plans. The new hardware required some changes to the system architecture and was not compatible with our older deployments. This unfortunately left many customers unable to upgrade their plans to PremiumV2. To solve this problem we developed a different way to attach the new PremiumV2 compute just for our older App Service deployments. This solution is now slowly rolling out and is adding the PremiumV2 option where it was previously unavailable.&lt;/p&gt;
+
+&lt;h2 id=&quot;changing-ip-addresses&quot;&gt;Changing IP Addresses&lt;/h2&gt;
+
+&lt;p&gt;When you scale to PremiumV2 while in a newer App Service deployment, your outbound addresses will change. To help customers that are sensitive to that, the app property called &lt;strong&gt;Additional Outbound IP Addresses&lt;/strong&gt; contains all of the outbound addresses that your app can have. This field holds the outbound addresses your app can have while in Free through Standard as well as the addresses it would have while in PremiumV2.&lt;/p&gt;
+
+&lt;p&gt;With the new ability to offer PremiumV2 to older deployments of the Azure App Service, both your inbound and outbound IP addresses will change when you scale from Standard or lower to PremiumV2 and back. This means that if you have A records for your app, you will need to update them after you scale. Your app will still be accessible for at least five days from the original address as we relay the inbound traffic to the new address. When you go to scale your app from Standard or lower to PremiumV2, you will be told the new addresses for your app. The same will be true if you scale from PremiumV2 to a lower tier.&lt;/p&gt;
+
+&lt;p&gt;In order to select the PremiumV2, you need to acknowledge that your inbound and outbound addresses will change as you scale up your App Service plan.&lt;/p&gt;
+
+&lt;h2 id=&quot;features-gained-and-lost&quot;&gt;Features gained and lost&lt;/h2&gt;
+
+&lt;p&gt;There is a feature lost and another gained when you scale to PremiumV2 in these older App Service deployments.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Remote debugging&lt;/strong&gt;: When you scale your app to PremiumV2, you will no longer be able to use remote debugging for your apps. If you scale your App Service plan to a lower tier, you will be able to use remote debug again.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Regional VNet Integration&lt;/strong&gt;: When your app is in a PremiumV2 App Service plan, you will be able to use regional VNet Integration. When you scale back down to Standard tier or lower, you will lose the ability to use the feature. This is different from the newer App Service deployments where you can use regional VNet Integration from Standard and PremiumV2.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-to-scale-to-premiumv2&quot;&gt;How to scale to PremiumV2&lt;/h2&gt;
+
+&lt;p&gt;To scale up to PremiumV2, or just to see if you can scale up to PremiumV2, navigate to the &lt;strong&gt;Scale up (App Service plan)&lt;/strong&gt; page in your app portal. If you can select any of the PremiumV2 options, you are able to scale to PremiumV2. The user experience will show you your new addresses and request your acknowledgement. If you opt out at this point and come back later, the addresses you would see would be the same for the same app.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/premiumv2-old-scale-units.png&quot; alt=&quot;PremiumV2 tier selection experience&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;benefits-of-premiumv2&quot;&gt;Benefits of PremiumV2&lt;/h2&gt;
+
+&lt;p&gt;It is important to highlight some of the other benefits of using a PremiumV2 App Service plan.  Those benefits include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cores are over twice as powerful&lt;/li&gt;
+  &lt;li&gt;Twice the memory per core as Standard or lower&lt;/li&gt;
+  &lt;li&gt;Can scale up to 30 instances&lt;/li&gt;
+  &lt;li&gt;Will be able to use Private Endpoints&lt;/li&gt;
+  &lt;li&gt;Can use regional VNet Integration&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Azure App Service</name></author><category term="app service plan" /><summary type="html">The PremiumV2 hardware tier is now available for older deployments of App Service where it was not previously available. A few years ago Azure App Service began to offer the PremiumV2 App Service plan. The benefits of this new tier were tied to the new hardware that was used for it. The same hardware is used for Free to Standard App Service plans. The new hardware required some changes to the system architecture and was not compatible with our older deployments. This unfortunately left many customers unable to upgrade their plans to PremiumV2. To solve this problem we developed a different way to attach the new PremiumV2 compute just for our older App Service deployments. This solution is now slowly rolling out and is adding the PremiumV2 option where it was previously unavailable.</summary></entry><entry><title type="html">Important update for Tinfoil security</title><link href="https://azure.github.io/AppService/2020/03/16/Important-update-for-Tinfoil-security.html" rel="alternate" type="text/html" title="Important update for Tinfoil security" /><published>2020-03-16T00:00:00+00:00</published><updated>2020-03-16T00:00:00+00:00</updated><id>https://azure.github.io/AppService/2020/03/16/Important-update-for-Tinfoil-security</id><content type="html" xml:base="https://azure.github.io/AppService/2020/03/16/Important-update-for-Tinfoil-security.html">&lt;p&gt;We’re announcing that &lt;strong&gt;Tinfoil Security&lt;/strong&gt; addon will no longer be available through &lt;strong&gt;App Service&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Over the next few months, we’ll start transitioning out this offer starting by disabling new sign ups at the end of &lt;strong&gt;April 2020&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Existing &lt;strong&gt;Tinfoil&lt;/strong&gt; enabled apps can continue to use the existing addon until &lt;strong&gt;May 2020&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;At any point during this transition period and through &lt;strong&gt;September 2020&lt;/strong&gt; you can migrate your account along with all of your scan settings and history to &lt;strong&gt;Tinfoil&lt;/strong&gt;  standalone service on &lt;a href=&quot;https://tinfoilsecurity.com&quot;&gt;tinfoilsecurity.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;By going through with this migration, you will get access to some features that were not available in the Azure integration at no additional cost including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;More detailed scan reports such as an additional statistics page&lt;/li&gt;
+  &lt;li&gt;Access to &lt;strong&gt;Tinfoil&lt;/strong&gt; API for easier automation&lt;/li&gt;
+  &lt;li&gt;The ability to add additional collaborators for read-only access to your &lt;strong&gt;Tinfoil&lt;/strong&gt; scan results&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Instructions for this migration will be sent out via email to existing customers, and will also appear on your &lt;strong&gt;Tinfoil Security&lt;/strong&gt; addon dashboard.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tinfoil&lt;/strong&gt; is looking forward to continuing to help you keep your sites safe and secure!&lt;/p&gt;
+
+&lt;p&gt;If you have any question you can reach out to &lt;a href=&quot;mailto:support@tinfoilsecurity.com&quot;&gt;Tinfoil support&lt;/a&gt; .&lt;/p&gt;</content><author><name>Azure App Service</name></author><category term="Tinfoil" /><summary type="html">We’re announcing that Tinfoil Security addon will no longer be available through App Service.</summary></entry><entry><title type="html">Public Preview of Private Link on App Service</title><link href="https://azure.github.io/AppService/2020/03/16/Public-Preview-of-Private-Link-on-App-Service.html" rel="alternate" type="text/html" title="Public Preview of Private Link on App Service" /><published>2020-03-16T00:00:00+00:00</published><updated>2020-03-16T00:00:00+00:00</updated><id>https://azure.github.io/AppService/2020/03/16/Public%20Preview%20of%20Private%20Link%20on%20App%20Service</id><content type="html" xml:base="https://azure.github.io/AppService/2020/03/16/Public-Preview-of-Private-Link-on-App-Service.html">&lt;p&gt;We are happy to announce the public preview of Private Link for Azure App Service. This preview is available in limited regions for all PremiumV2 Windows and Linux web apps. It is also now available for Elastic Premium Functions plans. &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/private-link/&quot;&gt;Private Link&lt;/a&gt; enables you to host your apps on an address in your Azure Virtual Network (VNet) rather than on a shared public address. By moving the endpoint for your app into your VNet you can:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Isolate your apps from the internet&lt;/strong&gt;. Configuring a Private Endpoint with your app, you can securely host line-of-business applications and other intranet applications.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Prevent data exfiltration&lt;/strong&gt;. Since the Private Endpoint only goes to one app, you don’t need to worry about data exfiltration situations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/privatelink-flow.png&quot; alt=&quot;Private Link Flow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The feature is currently available in East US and West US 2. Remaining regions will be updated shortly.&lt;/p&gt;
+
+&lt;h3 id=&quot;using-private-link-or-service-endpoints&quot;&gt;Using Private Link or Service Endpoints&lt;/h3&gt;
+
+&lt;p&gt;There is another networking feature called Service Endpoints which enables you to secure workloads to your VNet. There is a difference between Private Link and Service Endpoints. Service Endpoints enables you to secure your app to select set of subnets. It is used to secure the service to only being reachable from the select subnets. Private Link exposes your app on an address in your VNet and removes it from public access. This not only secures the app but can also be combined with Network Security Groups to secure your network.&lt;/p&gt;
+
+&lt;h3 id=&quot;private-link-vs-app-service-environment&quot;&gt;Private Link vs App Service Environment&lt;/h3&gt;
+
+&lt;p&gt;Having your app only accessible on a private address in your VNet is something that was previously only possible by using an ILB App Service Environment or an Application Gateway with an internal inbound address. The difference between using Private Link and an ILB ASE is that with an ILB ASE you have single tenant system that can host many apps behind one VNet address. With Private Link, your app runs in the public App service and you have one app behind one address. If you want to apply network security external to your application, then you still only get that with an ILB ASE. If you only need a private address in your VNet, then Private Link can give you that.&lt;/p&gt;
+
+&lt;h3 id=&quot;putting-your-app-in-your-vnet&quot;&gt;Putting your app in your VNet&lt;/h3&gt;
+
+&lt;p&gt;Private Link provides a private address for inbound traffic only to your app. It does not enable your app to make outbound calls into your VNet. If you want to have all inbound and outbound in your VNet, then you need to use both Private Link and Regional VNet Integration. With Private Link you can secure the inbound and with VNet Integration you can secure the outbound.&lt;/p&gt;
+
+&lt;p&gt;To get started, read the documentation &lt;a href=&quot;https://docs.microsoft.com/azure/app-service/networking/private-endpoint&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Azure App Service</name></author><category term="Networking" /><summary type="html">We are happy to announce the public preview of Private Link for Azure App Service. This preview is available in limited regions for all PremiumV2 Windows and Linux web apps. It is also now available for Elastic Premium Functions plans. Private Link enables you to host your apps on an address in your Azure Virtual Network (VNet) rather than on a shared public address. By moving the endpoint for your app into your VNet you can:</summary></entry><entry><title type="html">Announcing public preview for Azure Functions portal UX</title><link href="https://azure.github.io/AppService/2020/03/13/Azure-Functions-Portal-Preview.html" rel="alternate" type="text/html" title="Announcing public preview for Azure Functions portal UX" /><published>2020-03-13T00:00:00+00:00</published><updated>2020-03-13T00:00:00+00:00</updated><id>https://azure.github.io/AppService/2020/03/13/Azure-Functions-Portal-Preview</id><content type="html" xml:base="https://azure.github.io/AppService/2020/03/13/Azure-Functions-Portal-Preview.html">&lt;h2 id=&quot;access-the-preview&quot;&gt;Access the preview&lt;/h2&gt;
+
+&lt;p&gt;The new user experience for &lt;strong&gt;Azure Functions&lt;/strong&gt; is now available for all users in the &lt;strong&gt;Azure Portal&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can try the new experience by clicking on the “&lt;em&gt;Preview the new Azure Functions management experience&lt;/em&gt;” banner in your function apps.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/functions_preview.gif&quot; alt=&quot;Access the Functions Preview UX&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;function-app-overview&quot;&gt;Function App Overview&lt;/h2&gt;
+
+&lt;p&gt;Once you are in the new experience, you will notice that the new  &lt;strong&gt;Azure Functions&lt;/strong&gt; UX is now consistent with the rest of the &lt;strong&gt;Azure Portal&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This UX is powered by the same &lt;a href=&quot;https://docs.microsoft.com/azure/azure-functions/functions-runtime-overview&quot;&gt;&lt;strong&gt;Azure Functions Runtime API&lt;/strong&gt;&lt;/a&gt; except they are now exposed through &lt;a href=&quot;https://azure.microsoft.com/features/resource-manager/&quot;&gt;&lt;strong&gt;ARM&lt;/strong&gt;&lt;/a&gt;. This allows for better caching, as well as support for &lt;a href=&quot;https://docs.microsoft.com/azure/role-based-access-control/overview&quot;&gt;&lt;strong&gt;RBAC&lt;/strong&gt;&lt;/a&gt;, and enables new scenarios like being able to manage Azure Functions hosted on an &lt;a href=&quot;https://docs.microsoft.com/azure/app-service/environment/create-ilb-ase&quot;&gt;&lt;strong&gt;Internal Load Balancer App Service Environment ASE&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The core &lt;strong&gt;Azure Functions&lt;/strong&gt; features are grouped in the menu bar under the &lt;strong&gt;Functions (preview)&lt;/strong&gt; heading:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/functions_app_overview.png&quot; alt=&quot;New Function App overview&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;functions&quot;&gt;Functions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Functions&lt;/strong&gt; lets you list the individual functions within your Function App. From here you can also:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Add&lt;/strong&gt; a new function.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Delete&lt;/strong&gt; an existing function&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Enable / disable&lt;/strong&gt; individual functions&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Search / filter&lt;/strong&gt; through your list of functions&lt;/li&gt;
+  &lt;li&gt;Drill into a specific function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/functions_list.gif&quot; alt=&quot;New functions list&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;app-keys&quot;&gt;App Keys&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;App Keys&lt;/strong&gt; lets you interact with the Function App Keys at the Host and System level. from here you can:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;View&lt;/strong&gt; the values for Host &amp;amp; System keys&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Add / Remove&lt;/strong&gt; Host &amp;amp; System keys&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Renew&lt;/strong&gt; values for Host &amp;amp; System keys&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/function_app_keys.gif&quot; alt=&quot;New functions app keys&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;app-files&quot;&gt;App Files&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;App Files&lt;/strong&gt; lets you view and modify files like &lt;code class=&quot;highlighter-rouge&quot;&gt;host.json&lt;/code&gt; that are scoped to the Function app and not individual functions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/function_app_files.png&quot; alt=&quot;New functions app files&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;function-overview&quot;&gt;Function Overview&lt;/h2&gt;
+
+&lt;p&gt;Once you drill into a specific &lt;strong&gt;Function&lt;/strong&gt; within your &lt;strong&gt;Function App&lt;/strong&gt; there is a new overview page scoped to this specific function.&lt;/p&gt;
+
+&lt;p&gt;One of the added benefits of this &lt;strong&gt;overview&lt;/strong&gt; is that folks can now deep link to this page.&lt;/p&gt;
+
+&lt;p&gt;The body of the overview page is currently empty for the public preview, but we are working on adding metrics that are scoped to the execution of this specific function.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/function_overview.gif&quot; alt=&quot;New functions overview&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;code--test&quot;&gt;Code + Test&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Code + Test&lt;/strong&gt; menu item lets you view and modify the code of this specific function.&lt;/p&gt;
+
+&lt;p&gt;You can browse to individual files:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/function_code.gif&quot; alt=&quot;New functions code editor&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Test your function and see the execution logs:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/function_code_test.gif&quot; alt=&quot;New functions test and logs&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;PRO TIP&lt;/strong&gt; you can collapse the menu to maximize your code editor:&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;integration&quot;&gt;Integration&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Integration&lt;/strong&gt; menu item give you a graphical representation of your function. From here you can add / remove / edit all your &lt;strong&gt;Triggers&lt;/strong&gt;, &lt;strong&gt;Inputs&lt;/strong&gt; and &lt;strong&gt;Outputs&lt;/strong&gt; bindings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/function_integration.png&quot; alt=&quot;New functions integrate&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;function-keys&quot;&gt;Function Keys&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Function Keys&lt;/strong&gt; provides similar functionality to &lt;strong&gt;Function App Keys&lt;/strong&gt;, except it’s scoped to this specific function level.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/03/function_keys.png&quot; alt=&quot;New functions integrate&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping up&lt;/h2&gt;
+
+&lt;p&gt;The new preview experience for &lt;strong&gt;Azure functions&lt;/strong&gt; in the &lt;strong&gt;Azure Portal&lt;/strong&gt; provides all the functionality of the existing UX but with better &lt;em&gt;performance&lt;/em&gt;, &lt;em&gt;accessibility&lt;/em&gt; and &lt;em&gt;consistency&lt;/em&gt; with the rest of the &lt;strong&gt;Azure Portal&lt;/strong&gt;. It also offers new functionality like &lt;em&gt;RBAC support&lt;/em&gt; and improved code editor and integration UX.&lt;/p&gt;
+
+&lt;p&gt;If you want to see the UX in action you can watch a demo from &lt;a href=&quot;https://twitter.com/bktv99&quot;&gt;@bktv99&lt;/a&gt; during monthly February 2020 Azure Functions webcast:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=62TwjDxQZZo&quot;&gt;&lt;img src=&quot;/AppService/media/2020/03/functions_webcast.png&quot; alt=&quot;Functions Webcast&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you find issues during the preview, you can &lt;a href=&quot;https://github.com/Azure/Azure-Functions/issues/new?assignees=btardif&amp;amp;labels=UX_Preview&amp;amp;template=Preview_Functions_UX.md&amp;amp;title=%5BUX%5D+-+&quot;&gt;file a bug&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also request features using our &lt;a href=&quot;https://feedback.azure.com/forums/355860-azure-functions&quot;&gt;User Voice&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Azure Functions&lt;/strong&gt; team can also be reach through twitter: &lt;a href=&quot;https://twitter.com/AzureFunctions&quot;&gt;@AzureFunctions&lt;/a&gt;&lt;/p&gt;</content><author><name>Azure App Service</name></author><category term="Function" /><category term="Azure Portal" /><summary type="html">Access the preview</summary></entry><entry><title type="html">Announcing general availability of VNet Integration with Windows Web Apps</title><link href="https://azure.github.io/AppService/2020/02/27/General-Availability-of-VNet-Integration-with-Windows-Web-Apps.html" rel="alternate" type="text/html" title="Announcing general availability of VNet Integration with Windows Web Apps" /><published>2020-02-27T00:00:00+00:00</published><updated>2020-02-27T00:00:00+00:00</updated><id>https://azure.github.io/AppService/2020/02/27/General%20Availability%20of%20VNet%20Integration%20with%20Windows%20Web%20Apps</id><content type="html" xml:base="https://azure.github.io/AppService/2020/02/27/General-Availability-of-VNet-Integration-with-Windows-Web-Apps.html">&lt;p&gt;App Service customers often need to access resources in their Azure Virtual Networks. We launched VNet Integration to address this issue in 2014, but our customers wanted to use networking features like &lt;a href=&quot;https://docs.microsoft.com/archive/blogs/igorpag/azure-network-security-groups-nsg-best-practices-and-lessons-learned&quot;&gt;Network Security Groups&lt;/a&gt; (NSGs), Route Tables (UDRs) and &lt;a href=&quot;https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview&quot;&gt;Service Endpoints&lt;/a&gt;. Today we are announcing Regional VNet Integration to solve these problems and improve usability.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet&quot;&gt;Try the new Regional VNet Integration today!&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Regional VNet Integration has been in preview for some time, but only supported calls to RFC1918 addresses (&lt;code class=&quot;highlighter-rouge&quot;&gt;10.0.0.0/8&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;172.16.0.0/12&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;192.168.0.0/16&lt;/code&gt;) and service endpoints. The feature now supports outbound calls into the VNet on &lt;strong&gt;non&lt;/strong&gt;-RFC1918 addresses as well. You can now use features like Network NSGs and UDRs against all of the outbound traffic from your web app. Regional VNet Integration will only work with VNets in the same Azure region as the Webapp.&lt;/p&gt;
+
+&lt;p&gt;By default, if you use regional VNet Integration, your app will still only route RFC1918 traffic into your VNet. By setting the app setting &lt;code class=&quot;highlighter-rouge&quot;&gt;WEBSITE_VNET_ROUTE_ALL&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;, your app will then enable all of the outbound traffic from your app to be subject to NSGs and UDRs.&lt;/p&gt;
+
+&lt;p&gt;These new changes enable you to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Access non-RFC1918 endpoints through your VNet&lt;/li&gt;
+  &lt;li&gt;Secure all outbound traffic leaving your web app&lt;/li&gt;
+  &lt;li&gt;Force tunnel all outbound traffic to a network appliance of your own choosing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AppService/media/2020/02/vnetint-regionalworks.png&quot; alt=&quot;Regional VNet Integration architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Regional VNet integration is available in all public regions for Windows Webapps. Regional VNet Integration for Linux Webapps is currently in public preview. To use Regional VNet Integration, your Webapp must be in a Standard, Premium, PremiumV2 or Elastic Premium App Service plan. Regional VNet Integration only applies to outbound calls made by your Webapps, it does not enable private access to your apps. The older, gateway-required VNet Integration will continue to be supported. It integrates with VNets in other regions and Classic VNets.&lt;/p&gt;
+
+&lt;p&gt;For more information about regional VNet Integration, see &lt;a href=&quot;https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet&quot;&gt;App Service VNet Integration&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For more information about App Service networking features in general, see &lt;a href=&quot;https://docs.microsoft.com/azure/app-service/networking-features&quot;&gt;App Service networking features&lt;/a&gt;.&lt;/p&gt;</content><author><name>Azure App Service</name></author><category term="Networking" /><summary type="html">App Service customers often need to access resources in their Azure Virtual Networks. We launched VNet Integration to address this issue in 2014, but our customers wanted to use networking features like Network Security Groups (NSGs), Route Tables (UDRs) and Service Endpoints. Today we are announcing Regional VNet Integration to solve these problems and improve usability.</summary></entry><entry><title type="html">Run Wildfly on App Service</title><link href="https://azure.github.io/AppService/2020/01/31/Wildfly-on-App-Service.html" rel="alternate" type="text/html" title="Run Wildfly on App Service" /><published>2020-01-31T00:00:00+00:00</published><updated>2020-01-31T00:00:00+00:00</updated><id>https://azure.github.io/AppService/2020/01/31/Wildfly%20on%20App%20Service</id><content type="html" xml:base="https://azure.github.io/AppService/2020/01/31/Wildfly-on-App-Service.html">&lt;p&gt;Wildfly is an open-source application runtime for Java applications, and the upstream project of JBoss EAP. We recently added &lt;a href=&quot;https://github.com/Azure-Samples/app-service-wildfly&quot;&gt;a new Azure Sample&lt;/a&gt; that shows how to deploy Wildfly as a custom container onto Webapps for Containers.&lt;/p&gt;
+
+&lt;p&gt;The container image in the sample is already configured to support &lt;a href=&quot;https://docs.microsoft.com/azure/app-service/containers/app-service-linux-ssh-support#open-ssh-session-in-browser&quot;&gt;web-SSH&lt;/a&gt; and &lt;a href=&quot;https://docs.microsoft.com/azure/app-service/deploy-zip#deploy-war-file&quot;&gt;wardeploy&lt;/a&gt;. The image also uses the Azul Zulu Enterprise build of the OpenJDK, which receives free support on Azure. (This support does not extend to the Wildfly runtime.)&lt;/p&gt;
+
+&lt;p&gt;If your Java application only requires the servlet and JSP APIs, you can deploy your application onto &lt;a href=&quot;https://docs.microsoft.com/azure/app-service/containers/quickstart-java&quot;&gt;Tomcat for App Service&lt;/a&gt;, which is supported on both Windows and Linux.&lt;/p&gt;
+
+&lt;h2 id=&quot;helpful-links&quot;&gt;Helpful Links&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/java/azure/jdk/&quot;&gt;Java long-term support for Azure and Azure Stack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/java/azure/jdk/java-jdk-docker-images&quot;&gt;Java Docker images for Azure&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wildfly.org/&quot;&gt;Wildfly&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Azure App Service</name></author><category term="Java" /><summary type="html">Wildfly is an open-source application runtime for Java applications, and the upstream project of JBoss EAP. We recently added a new Azure Sample that shows how to deploy Wildfly as a custom container onto Webapps for Containers.</summary></entry><entry><title type="html">PHP Minor Version Update for February 2020</title><link href="https://azure.github.io/AppService/2020/01/25/PHP-Minor-Version-Update-for-February-2020.html" rel="alternate" type="text/html" title="PHP Minor Version Update for February 2020" /><published>2020-01-25T00:00:00+00:00</published><updated>2020-01-25T00:00:00+00:00</updated><id>https://azure.github.io/AppService/2020/01/25/PHP%20Minor%20Version%20Update%20for%20February%202020</id><content type="html" xml:base="https://azure.github.io/AppService/2020/01/25/PHP-Minor-Version-Update-for-February-2020.html">&lt;p&gt;Latest version updates to PHP&lt;/p&gt;
+
+&lt;p&gt;In February 2020, Azure App Service will update the Windows PHP stacks to the latest available versions. For information on the changes in the new versions, please see the change logs on the PHP website.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;PHP Version&lt;/th&gt;
+      &lt;th&gt;Change Log&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7.2.27&lt;/td&gt;
+      &lt;td&gt;https://www.php.net/ChangeLog-7.php#7.2.27&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7.3.14&lt;/td&gt;
+      &lt;td&gt;https://www.php.net/ChangeLog-7.php#7.3.14&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Additionally, the Windows build of &lt;a href=&quot;https://www.php.net/ChangeLog-7.php#7.4.2&quot;&gt;PHP 7.4&lt;/a&gt; will be available with the February 2020 update.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Both PHP versions 7.0 and 7.1 are past &lt;a href=&quot;https://www.php.net/supported-versions.php&quot;&gt;End-Of-Life&lt;/a&gt;, and are no longer receiving security updates from the community.  These versions will be removed with the February 2020 update.  All sites configured with either PHP 7.0 or 7.1 will have their configuration changed to &lt;strong&gt;PHP 7.3&lt;/strong&gt;.&lt;/p&gt;</content><author><name>Azure App Service</name></author><category term="PHP" /><summary type="html">Latest version updates to PHP</summary></entry><entry><title type="html">Azure App Service on Azure Stack Hub Update 8 Released</title><link href="https://azure.github.io/AppService/2020/01/13/App-Service-on-Azure-Stack-Hub-Update-8-Released.html" rel="alternate" type="text/html" title="Azure App Service on Azure Stack Hub Update 8 Released" /><published>2020-01-13T00:00:00+00:00</published><updated>2020-01-13T00:00:00+00:00</updated><id>https://azure.github.io/AppService/2020/01/13/App%20Service%20on%20Azure%20Stack%20Hub%20Update%208%20Released</id><content type="html" xml:base="https://azure.github.io/AppService/2020/01/13/App-Service-on-Azure-Stack-Hub-Update-8-Released.html">&lt;p&gt;This afternoon we released the eighth update to Azure App Service on Azure Stack Hub. This release updates the resource provider and brings the following key capabilities and fixes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Updates to &lt;strong&gt;App Service Tenant, Admin, Functions portals and Kudu tools&lt;/strong&gt;. Consistent with Azure Stack Portal SDK version.&lt;/li&gt;
+  &lt;li&gt;Updates to core service to improve reliability and error messaging enabling easier diagnosis of common issues.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Managed disk support&lt;/strong&gt; for all &lt;strong&gt;new deployments&lt;/strong&gt; – All new deployments of Azure App Service on Azure Stack Hub will make use of managed disks for all Virtual Machines and Virtual Machine Scale Sets.  All existing deployments will continue to use unmanaged disks.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;TLS 1.2 Enforced by Front End load Balancers&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;All other fixes and updates are detailed in the App Service on Azure Stack Update Eight Release Notes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The App Service on Azure Stack Hub Update 8 build number is &lt;strong&gt;86.0.2.13&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download the new installer and helper scripts:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aka.ms/appsvcupdate8installer&quot;&gt;Installer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aka.ms/appsvconmashelpers&quot;&gt;Helper Scripts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please read the updated documentation prior to getting started with deployment:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-app-service-release-notes-update-eight&quot;&gt;Update 8 Release Notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started&quot;&gt;Before you get started with App Service on Azure Stack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-deploy&quot;&gt;Deploy the App Service Resource Provider&lt;/a&gt; for new deployments&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-update&quot;&gt;Update the App Service Resource Provider&lt;/a&gt; for updating existing deployments&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Azure App Service</name></author><category term="Azure Stack" /><summary type="html">This afternoon we released the eighth update to Azure App Service on Azure Stack Hub. This release updates the resource provider and brings the following key capabilities and fixes:</summary></entry><entry><title type="html">App Service Environment Support for Availability Zones</title><link href="https://azure.github.io/AppService/2019/12/12/App-Service-Environment-Support-for-Availability-Zones.html" rel="alternate" type="text/html" title="App Service Environment Support for Availability Zones" /><published>2019-12-12T00:00:00+00:00</published><updated>2019-12-12T00:00:00+00:00</updated><id>https://azure.github.io/AppService/2019/12/12/App%20Service%20Environment%20Support%20for%20Availability%20Zones</id><content type="html" xml:base="https://azure.github.io/AppService/2019/12/12/App-Service-Environment-Support-for-Availability-Zones.html">&lt;p&gt;App Service has GA’d App Service Environment (ASE) support for deploying into Availability Zones (AZ).  Customers can choose to optionally deploy internal load balancer (ILB) ASEs into a specific AZ (Zone 1, 2 or 3) within an Azure region, and the resources used by that ILB ASE will either be pinned to the specified AZ, or deployed in a zone redundant manner.&lt;/p&gt;
+
+&lt;p&gt;An ILB ASE that is explicitly deployed into an AZ is considered a zonal resource because the ILB ASE is pinned to a specific zone. The following ILB ASE dependencies will be located (pinned) in the specified zone:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the internal load balancer IP address of the ASE&lt;/li&gt;
+  &lt;li&gt;the compute resources used by the ASE to manage and run web applications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The remote file storage for web applications deployed on a zonal ILB ASE uses Zone Redundant Storage (ZRS), though this is an internal implementation detail of zonal ILB ASEs.&lt;/p&gt;
+
+&lt;p&gt;Note that unless the steps described in this article are followed, ILB ASEs are not automatically deployed in a zonal manner.  Furthermore only ILB ASEs support availability zones - external facing ASEs (i.e. ASEs that have a public IP address for accepting website traffic) currently do not support zone pinning.&lt;/p&gt;
+
+&lt;p&gt;Zonal ILB ASEs can be created in any of the following regions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Central US&lt;/li&gt;
+  &lt;li&gt;East US&lt;/li&gt;
+  &lt;li&gt;East US 2&lt;/li&gt;
+  &lt;li&gt;East US 2 (EUAP)&lt;/li&gt;
+  &lt;li&gt;France Central&lt;/li&gt;
+  &lt;li&gt;Japan East&lt;/li&gt;
+  &lt;li&gt;North Europe&lt;/li&gt;
+  &lt;li&gt;West Europe&lt;/li&gt;
+  &lt;li&gt;Southeast Asia&lt;/li&gt;
+  &lt;li&gt;UK South&lt;/li&gt;
+  &lt;li&gt;West US 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Applications deployed on a zonal ILB ASE will continue to run and serve traffic on that ASE even if other zones in the same region suffer an outage.  However it is possible that non-runtime behaviors, including application service plan scaling, as well as application creation, configuration and publishing may still be impacted in the event of an outage in other availability zones.  The zone-pinned deployment of a zonal ILB ASE only ensures continued uptime for already deployed applications and the underlying network infrastructure and virtual machines running those applications.&lt;/p&gt;
+
+&lt;p&gt;Zonal ILB ASEs must be created using ARM templates.  Once a zonal ILB ASE is created via an ARM template, it can be viewed and interacted with via the Azure Portal as well as CLI tooling.  An ARM template is only needed for the initial creation of a zonal ILB ASE.&lt;/p&gt;
+
+&lt;p&gt;The only change needed in an ARM template to specify a zonal ILB ASE is the new &lt;strong&gt;&lt;em&gt;zones&lt;/em&gt;&lt;/strong&gt; property.  The &lt;strong&gt;&lt;em&gt;zones&lt;/em&gt;&lt;/strong&gt; property should be set to a value of 1, 2 or 3 depending on the logical availability zone that the ILB ASE should be pinned to.&lt;/p&gt;
+
+&lt;p&gt;The ARM template snippet below shows the new &lt;strong&gt;&lt;em&gt;zones&lt;/em&gt;&lt;/strong&gt; property specifying that the ILB ASE should be pinned to zone 2.&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nl&quot;&gt;&quot;resources&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+     &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Microsoft.Web/hostingEnvironments&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+     &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;kind&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ASEV2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+     &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;yourASENameHere&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+     &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;apiVersion&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2015-08-01&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+     &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;location&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;your location here&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+     &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;zones&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+     &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+     &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;properties&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;yourASENameHere&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;location&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;your location here&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;ipSslAddressCount&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;internalLoadBalancingMode&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;dnsSuffix&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;contoso-internal.com&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;virtualNetwork&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+           &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;Id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/subscriptions/your-subscription-id-here/resourceGroups/your-resource-group-here/providers/Microsoft.Network/virtualNetworks/your-vnet-name-here&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+           &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;Subnet&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;yourSubnetNameHere&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+     &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In order to attain end-to-end zone resiliency for apps created on a zonal ILB ASE, customers need to deploy at least two zonal ILB ASEs - with each ILB ASE being pinned to a different zone.  Customers must then create and publish copies of their application onto each of the zonal ILB ASEs.&lt;/p&gt;
+
+&lt;p&gt;Customers will also  need to deploy a load balancing solution upstream of the zonal ILB ASEs so that traffic bound for an application is load-balanced and distributed across all of the zonal ILB ASEs.  The recommended solution is to deploy a zone redundant Application Gateway upstream of the zonal ILB ASEs.  More details on Application Gateway v2 and its zone redundant configuration is available &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-autoscaling-zone-redundant&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Azure App Service</name></author><category term="App Service Environment" /><category term="Availability Zones" /><summary type="html">App Service has GA’d App Service Environment (ASE) support for deploying into Availability Zones (AZ). Customers can choose to optionally deploy internal load balancer (ILB) ASEs into a specific AZ (Zone 1, 2 or 3) within an Azure region, and the resources used by that ILB ASE will either be pinned to the specified AZ, or deployed in a zone redundant manner.</summary></entry></feed>
